@@ -1,0 +1,37 @@
+{
+  "pages": [
+    {
+      "id": "Header and Footer",
+      "isDefault": true
+    },
+    {
+      "id": "Sidebar",
+      "isDefault": false
+    },
+    {
+      "id": "LoadingTillReady",
+      "isDefault": false
+    },
+    {
+      "id": "Header and Footer Page",
+      "isDefault": false
+    }
+  ],
+  "viewMode": false,
+  "appIsExample": false,
+  "unreadCommentThreads": 0,
+  "clonedFromApplicationId": "61fb97982cd3d95ca414b20a",
+  "color": "#FFDEDE",
+  "icon": "headphones",
+  "unpublishedAppLayout": {
+    "type": "DESKTOP"
+  },
+  "publishedAppLayout": {
+    "type": "DESKTOP"
+  },
+  "evaluationVersion": 2,
+  "applicationVersion": 1,
+  "forkingEnabled": true,
+  "isManualUpdate": false,
+  "deleted": false
+}

@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "MenuOp",
+    "pageId": "LoadingTillReady",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tchangeMenu: (id) => {\n\t\tstoreValue('menuLoading', id, false);\n\t},\n\tgetMenu: () => {\n\t\treturn appsmith.store.menuLoading ?? 1;\n\t}\n}",
+    "variables": []
+  },
+  "id": "LoadingTillReady_MenuOp",
+  "deleted": false,
+  "gitSyncId": "61fb97982cd3d95ca414b20a_62baad3c20ae3225cef2ecff"
+}

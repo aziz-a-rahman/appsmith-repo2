@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "MenuOp",
+    "pageId": "Sidebar",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tchangeMenu: (id) => {\n\t\tstoreValue('menu', id);\n\t},\n\tgetMenu: () => {\n\t\treturn appsmith.store.menu ?? 1;\n\t}\n}",
+    "variables": []
+  },
+  "id": "Sidebar_MenuOp",
+  "deleted": false,
+  "gitSyncId": "61fb97982cd3d95ca414b20a_622b02186ec44f30294c4093"
+}

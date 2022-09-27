@@ -1,0 +1,20 @@
+{
+  "unpublishedCollection": {
+    "name": "make",
+    "pageId": "LoadingTillReady",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tbuild: `1. Use a <a href=\"https://docs.appsmith.com/widget-reference/tabs\"><b>Tab widget</b></a>.\n\n2. First tab will be for loading screen (Default tab 1).\n\n3. Second tab will have the dashboard.\n\n4. Create a JS Object called <b>setup</b>, from there do the page load validation and if successful go to the dashboard tab.\n\n5. Check the <b>default</b> tab property of the <b>Tab widget</b>.\n\n6. Lastly, set the <b>Show Tabs</b> property to false`\n}",
+    "variables": [
+      {
+        "name": "build",
+        "value": "`1. Use a <a href=\"https://docs.appsmith.com/widget-reference/tabs\"><b>Tab widget</b></a>.\n\n2. First tab will be for loading screen (Default tab 1).\n\n3. Second tab will have the dashboard.\n\n4. Create a JS Object called <b>setup</b>, from there do the page load validation and if successful go to the dashboard tab.\n\n5. Check the <b>default</b> tab property of the <b>Tab widget</b>.\n\n6. Lastly, set the <b>Show Tabs</b> property to false`"
+      }
+    ]
+  },
+  "id": "LoadingTillReady_make",
+  "deleted": false,
+  "gitSyncId": "61fb97982cd3d95ca414b20a_62bab36e20ae3225cef2ef59"
+}

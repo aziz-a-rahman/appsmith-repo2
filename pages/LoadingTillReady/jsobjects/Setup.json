@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "Setup",
+    "pageId": "LoadingTillReady",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tsetupPage: async () => {\n\t\ttry {\n\t\t\tconst data = await validateUser.run();\n\t\t\tif (data.length > 0) {\n\t\t\t\t// run actual data fetching logic\n\t\t\t\t// Show the dashboard tab\n\t\t\t\tMenuOp.changeMenu('2');\n\t\t\t} else {\n\t\t\t\t// Go to login\n\t\t\t\tMenuOp.changeMenu('3');\n\t\t\t}\n\t\t} catch(e) {\n\t\t\t// NavigateTo some other page that shows error\n\t\t\tMenuOp.changeMenu('3');\n\t\t}\n\t}\n}",
+    "variables": []
+  },
+  "id": "LoadingTillReady_Setup",
+  "deleted": false,
+  "gitSyncId": "61fb97982cd3d95ca414b20a_62baaef620ae3225cef2edd2"
+}
